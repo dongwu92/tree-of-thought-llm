@@ -1,5 +1,6 @@
 import os
 DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data')
+CACHE_PATH = os.path.join(os.path.dirname(__file__), '..', 'cache')
 
 class Task:
     def __init__(self):
